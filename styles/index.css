@@ -1,0 +1,60 @@
+#seccion-principal {
+  width: 100%;
+  height: 85%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("https://img.freepik.com/fotos-premium/dos-personas-tomando-cafe-cafeteria-cuales-tiene-barra-chocolate-al-fondo_9493-1996.jpg?w=1380");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: linear-gradient;
+  display: flex;
+  flex-direction: row;
+}
+#seccion-principal #contenedor-redes {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  padding-bottom: 20px;
+  padding-left: 50px;
+  gap: 40px;
+  cursor: pointer;
+}
+#seccion-principal #contenedor-redes .circulo {
+  background-color: #503A28;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 120px;
+  height: 120px;
+}
+#seccion-principal #contenedor-redes .circulo i {
+  color: #FCEBD4;
+  font-size: 60px;
+}
+#seccion-principal #contenedor-texto {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  color: white;
+  padding: 50px 70px;
+}
+#seccion-principal #contenedor-texto h1 {
+  font-size: 50px;
+  text-align: center;
+  font-family: "Inknut Antiqua", sans-serif;
+  line-height: 80px;
+  text-decoration: none;
+  border-bottom: solid 5px #FCEBD4;
+  padding-bottom: 30px;
+}
+#seccion-principal #contenedor-texto p {
+  margin-top: 30px;
+  font-size: 20px;
+  letter-spacing: 1px;
+  line-height: 30px;
+  text-align: center;
+}/*# sourceMappingURL=index.css.map */

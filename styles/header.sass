@@ -1,0 +1,59 @@
+$color-principal: #503A28
+$color-secundario: #FCEBD4
+
+*
+    border: 0
+    margin: 0
+    padding: 0
+    box-sizing: border-box
+    font-family: "Inter", sans-serif
+
+#contenedor-global
+    height: 100vh
+    width: 100vw
+    overflow: hidden
+
+header
+    display: flex
+    flex-direction: row
+    justify-content: center
+    align-items: center
+    position: relative
+    background-color: $color-principal
+    height: 15%
+
+    img
+        height: 95%
+        position: absolute
+        left: 70px
+
+    nav
+        display: flex
+        height: 100%
+        align-items: flex-end
+        padding-bottom: 30px
+        gap: 40px
+
+        a
+            text-decoration: none
+            color: $color-secundario
+            font-size: 20px
+            transition: color .2s ease-in-out
+
+            &:hover
+                color: white
+        
+    #contenedor-iconos-header
+        position: absolute
+        right: 70px
+        display: flex
+        gap: 25px
+        align-items: flex-start
+        height: 100%
+        padding-top: 30px
+        cursor: pointer
+
+        i
+            font-size: 30px
+            color: $color-secundario
+
