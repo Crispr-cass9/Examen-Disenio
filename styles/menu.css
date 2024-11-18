@@ -7,9 +7,12 @@ body {
   flex-direction: row;
   gap: 50px;
   height: 85%;
+  display: flex;
   justify-content: center;
   align-items: center;
-  border: solid;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
 }
 #seccion-menu .sub-menu {
   width: 33%;
